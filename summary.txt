@@ -1,0 +1,17 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+I chose Python and Flask for the coding exercise due to my familiarity with Python and the frameworks of Python (Flask). 
+Python/Flask also has the advantages of being concise and easy to write code in, resulting in higher productivity. 
+Regarding tools, I used Postman to test my API, as it is a much easier way than running and testing an API on the web on port 8000. 
+
+2. What are the advantages and disadvantages of your solution?
+My solution revolves around having a priority queue data structure keeping track of all the active transactions (transactions with balance remaining) based on the timestamp. 
+Maintaining this data structure has advantages in higher data input and retrieval (O(logn)) than storing the data in a trivial sorted list (O(n)), however, it takes up more memory as a tradeoff. 
+In terms of the algorithm itself, the algorithm is optimized for adding positive balance from the individual (O(logn)and the spend operation( O(nlogn)), it does have a slower runtime for reducing balance from an individual (O(nlogn)). 
+The computation for individual balance is done during /add and /spend, therefore /balance returns in O(1) which is another advantage of the solution. 
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+My favorite project I’ve worked on is Frigo, a hackathon project aiming to provide a solution for people looking for great recipes that they can cook with ingredients in their fridge. 
+From this project, I’ve learned how to code in a team, divide up the work, and finally combine all the work in the end, simulating a real-life programming experience that cannot be done in class. 
+The time constraint was also a large challenge, as it was hard to work on a tight deadline and create a tangible product by the deadline. 
+I had the opportunity to experience different productivity methods in group programming which proved to be useful down the line as well. 
+Finally, it was an experience bringing the knowledge I learned from the classroom to real life, where I tried combining information and my work from classes all together, converting knowledge into experience. 
