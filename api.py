@@ -4,6 +4,10 @@ from dateutil import parser
 from flask import Flask, jsonify, request, Response
 # importing basic dependencies
 
+#instructions for running
+# 1. open virtual environment (venv)
+# 2. pip install flask and dateutil
+
 app = Flask(__name__)
 
 values = []
